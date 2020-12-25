@@ -13,6 +13,14 @@ body {
   justify-content: space-between;
 }
 
+.app__dropdown{
+  background-color: white;
+}
+.app__header > h1{
+  columns: #fc3c3c;
+  font-size:2rem;
+}
+
 .app__stats {
   display: flex;
   justify-content: space-between;
