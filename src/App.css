@@ -7,6 +7,7 @@ body {
 }
 
 .app__header {
+
   display: flex;
   align-items: center;
   margin: 20px;
@@ -17,7 +18,7 @@ body {
   background-color: white;
 }
 .app__header > h1{
-  columns: #fc3c3c;
+  color: #fc3c3c;
   font-size:2rem;
 }
 
@@ -29,6 +30,19 @@ body {
 .app__left{
   flex:0.9;
 }
+
+.app__right{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.app__right .MuiCardContent-root{
+  display: flex;
+  flex-direction:column;
+  flex-grow: 1;
+}
+
 .app {
   display: flex;
   justify-content: space-evenly;
@@ -39,4 +53,13 @@ body {
   .app{
     flex-direction: column;
   }
+}
+
+.app__graph{
+  flex-grow: 1;
+}
+
+.app_graphTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
